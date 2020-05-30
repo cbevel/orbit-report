@@ -9,9 +9,12 @@ import { Satellite } from '../satellite';
 export class OrbitListComponent implements OnInit {
 
   constructor() { }
+  
   @Input() satellites: Satellite[];
 
+  
   ngOnInit() {
   }
+
 
 }
